@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NutriTech - Nutrición y Tecnología</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #e0f2f1;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #00796b;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background: #004d40;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    section {
+      padding: 2rem;
+      background: white;
+      margin: 1rem auto;
+      max-width: 900px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    section img {
+      width: 100%;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #00796b;
+      color: white;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    .cta {
+      background-color: #009688;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+    .cta a {
+      color: white;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    form input, form textarea, form button {
+      padding: 0.5rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      background-color: #00796b;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #004d40;
+    }
+    .testimonios {
+      background-color: #f1f8e9;
+      padding: 1rem;
+      border-left: 4px solid #8bc34a;
+      margin-top: 1rem;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a NutriTech</h1>
+    <p>Asesorías Nutricionales y Cursos de Hardware & Software</p>
+  </header>
+  <nav>
+    <a href="#nutricion">Nutrición</a>
+    <a href="#tecnologia">Tecnología</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="nutricion">
+    <h2>Asesorías Nutricionales</h2>
+    <p>Obtén un plan alimenticio personalizado, consejos para una vida más saludable y seguimiento profesional. Ideal para personas que buscan mejorar su salud y bienestar.</p>
+    <img src="https://images.unsplash.com/photo-1542444459-db60d6a3ba33" alt="Asesoría nutricional">
+    <div class="cta">
+      <p><a href="#contacto">Solicita tu asesoría ahora</a></p>
+    </div>
+  </section>
+
+  <section id="tecnologia">
+    <h2>Cursos y Ayuda Técnica</h2>
+    <p>Aprende desde cero sobre hardware (montaje de PC, mantenimiento) y software (programación básica, uso de herramientas digitales). También brindamos asistencia técnica online.</p>
+    <img src="https://images.unsplash.com/photo-1581091870622-71c06ba49f1b" alt="Cursos de tecnología">
+    <div class="cta">
+      <p><a href="#contacto">Apúntate a un curso o pide ayuda</a></p>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Escríbenos por correo o contáctanos por WhatsApp para más información.</p>
+    <ul>
+      <li>Email: <a href="mailto:fivedani77@gmail.com">fivedani77@gmail.com</a></li>
+      <li>WhatsApp: <a href="https://wa.me/34643544755">+34 643 544 755</a></li>
+      <li>Teléfono: +34 643 544 755</li>
+    </ul>
+    <form action="https://formsubmit.co/fivedani77@gmail.com" method="POST">
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo electrónico" required>
+      <textarea name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí" required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <section id="testimonios">
+    <h2>Lo que dicen nuestros clientes</h2>
+    <div class="testimonios">
+      <p><strong>Lucía R.</strong> - "Gracias a NutriTech mejoré mis hábitos y mi rendimiento físico. Totalmente recomendado."</p>
+    </div>
+    <div class="testimonios">
+      <p><strong>Carlos M.</strong> - "Aprendí a montar mi propio PC con su curso de hardware. ¡Muy claro y práctico!"</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 NutriTech - Todos los derechos reservados
+  </footer>
+</body>
+</html>
